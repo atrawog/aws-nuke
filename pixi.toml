@@ -1,0 +1,16 @@
+[project]
+authors = ["Andreas Trawoeger <atrawog@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "aws-nuke"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+boto = ">=2.49.0,<3"
+click = ">=8.1.7,<9"
+awscli = ">=2.18.11,<3"
+boto3 = ">=1.35.45,<2"
+botocore = ">=1.35.45,<2"
